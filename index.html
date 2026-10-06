@@ -116,7 +116,11 @@ h1{gap:.6dvh;line-height:1.35}
 .t-main{font-size:clamp(26px,3.8vw,58px) !important;max-width:18em !important}
 .t-place{margin-top:.6dvh !important}
 #launchBtn{width:min(clamp(140px,15vw,240px),24dvh) !important;font-size:clamp(28px,3vw,48px) !important}
+.t-amir{font-size:clamp(26px,3.6vw,56px);line-height:1.3;white-space:nowrap;max-width:none}
+.t-name{white-space:nowrap;max-width:none;font-size:clamp(28px,6vw,84px);line-height:1.35}
 @media (orientation:portrait){
+  .t-amir{font-size:clamp(24px,5.2vw,56px) !important}
+  .t-name{font-size:clamp(26px,7.4vw,84px) !important}
   .t-small{font-size:clamp(20px,3.8vw,36px) !important}
   .t-hrh{font-size:clamp(22px,4.4vw,40px)}
   .t-office{font-size:clamp(18px,3.6vw,32px)}
@@ -270,8 +274,8 @@ kbd{background:#e7dcc6;border-radius:4px;padding:1px 6px;font-family:inherit}
   </header>
   <h1>
     <span class="t-small">يدشّن</span>
-    <span class="t-hrh">صاحب السمو الملكي</span>
-    <span class="t-prince" id="princeText">الأمير فيصل بن نواف بن عبدالعزيز آل سعود</span>
+    <span class="t-prince t-amir">صاحب السمو الملكي الأمير</span>
+    <span class="t-prince t-name" id="princeText">فيصل بن نواف بن عبدالعزيز آل سعود</span>
     <span class="t-office">أمير منطقة الجوف</span>
     <svg class="orn" viewBox="0 0 320 24" aria-hidden="true"><g fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"><path d="M4 12 H118"/><path d="M202 12 H316"/><path d="M118 12 C132 2,146 2,160 12 C174 22,188 22,202 12"/><path d="M118 12 C132 22,146 22,160 12 C174 2,188 2,202 12"/></g><g fill="currentColor"><circle cx="160" cy="12" r="3.2"/><circle cx="4" cy="12" r="2"/><circle cx="316" cy="12" r="2"/><path d="M96 12 l6 -4 l6 4 l-6 4z"/><path d="M212 12 l6 -4 l6 4 l-6 4z"/></g></svg>
     <span class="t-main" id="titleText">برنامج نثر البذور وحصاد مياه الأمطار</span>
@@ -305,7 +309,7 @@ kbd{background:#e7dcc6;border-radius:4px;padding:1px 6px;font-family:inherit}
 
 <!-- لوحة المشغّل: تفتح بزر S -->
 <div id="panel" role="dialog" aria-label="إعدادات العرض">
-  <h2>إعدادات العرض <small style="font-size:13px;color:#8a7a62;font-weight:400">نسخة ١٠</small></h2>
+  <h2>إعدادات العرض <small style="font-size:13px;color:#8a7a62;font-weight:400">نسخة ١٢</small></h2>
   <p class="hint">
     اختر المقطع أو الصور التي تظهر بعد الضغط على زر التدشين.<br>
     لفتح هذه اللوحة مرة ثانية: اضغط مطوّلاً ثانيتين على الزاوية العلوية اليسرى من الشاشة.

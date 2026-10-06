@@ -1,5 +1,5 @@
 /* يحفظ الصفحة على الآيباد عشان تفتح بدون إنترنت */
-const CACHE = 'tadshin-v10';
+const CACHE = 'tadshin-v12';
 const FILES = ['./', './index.html'];
 
 self.addEventListener('install', e => {
